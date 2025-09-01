@@ -17,3 +17,7 @@ variable "sqs_processing_sales_config" {
     dlq_redrive_max_receive_count = number
   })
 }
+
+variable "bucket_prefix_name" {
+
+}
